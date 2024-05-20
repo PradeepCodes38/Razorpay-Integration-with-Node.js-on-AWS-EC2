@@ -7,7 +7,7 @@ document.getElementById('pay-button').onclick = function(e) {
     console.log('Amount: ' + amount); // Debugging line
 
     var options = {
-        "key": "rzp_live_UYXnhbcTDGZ1gq", // Replace with your Razorpay key ID
+        "key": "", // Replace with your Razorpay key ID
         "amount": amount,
         "currency": "INR",
         "name": "Your Company Name",
